@@ -1,0 +1,25 @@
+{
+  "name": "addblocker-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThBytes/addBlocker-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThBytes/addBlocker-bot/issues"
+  },
+  "homepage": "https://github.com/ThBytes/addBlocker-bot#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mongoose": "^8.0.0",
+    "telegraf": "^4.15.0"
+  }
+}
